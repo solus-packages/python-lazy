@@ -1,0 +1,22 @@
+name       : python-lazy
+version    : 1.4
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/ce/10/2c0cd8a601fff792f814b89233859e3fce2e266a5defd8af3bcadbe5c7ef/lazy-1.4.zip : 2c6d27a5ab130fb85435320651a47403adcb37ecbcc501b0c6606391f65f5b43
+license    : BSD-2-Clause
+component  : programming.python
+summary    : Lazy attributes for Python objects
+description: |
+    A decorator to create lazy attributes.
+    Lazy attributes are computed attributes that are evaluated only once, the first time they are used. Subsequent uses return the results of the first call. They come handy when code should run
+
+    - late, i.e. just before it is needed, and
+    - once, i.e. not twice, in the lifetime of an object.
+
+    You can think of it as deferred initialization. The possibilities are endless.
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test

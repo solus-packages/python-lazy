@@ -1,0 +1,58 @@
+<PISI>
+    <Source>
+        <Name>python-lazy</Name>
+        <Packager>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
+        </Packager>
+        <License>BSD-2-Clause</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Lazy attributes for Python objects</Summary>
+        <Description xml:lang="en">A decorator to create lazy attributes.
+Lazy attributes are computed attributes that are evaluated only once, the first time they are used. Subsequent uses return the results of the first call. They come handy when code should run
+
+- late, i.e. just before it is needed, and
+- once, i.e. not twice, in the lifetime of an object.
+
+You can think of it as deferred initialization. The possibilities are endless.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-lazy</Name>
+        <Summary xml:lang="en">Lazy attributes for Python objects</Summary>
+        <Description xml:lang="en">A decorator to create lazy attributes.
+Lazy attributes are computed attributes that are evaluated only once, the first time they are used. Subsequent uses return the results of the first call. They come handy when code should run
+
+- late, i.e. just before it is needed, and
+- once, i.e. not twice, in the lifetime of an object.
+
+You can think of it as deferred initialization. The possibilities are endless.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy-1.4-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy-1.4-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy-1.4-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy-1.4-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy-1.4-py3.6.egg-info/zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy/__pycache__/lazy.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy/lazy.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy/tests/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy/tests/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy/tests/__pycache__/test_lazy.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/lazy/tests/test_lazy.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-08-12</Date>
+            <Version>1.4</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
+        </Update>
+    </History>
+</PISI>
