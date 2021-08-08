@@ -1,6 +1,6 @@
 name       : python-lazy
 version    : 1.4
-release    : 2
+release    : 3
 source     :
     - https://files.pythonhosted.org/packages/ce/10/2c0cd8a601fff792f814b89233859e3fce2e266a5defd8af3bcadbe5c7ef/lazy-1.4.zip : 2c6d27a5ab130fb85435320651a47403adcb37ecbcc501b0c6606391f65f5b43
 license    : BSD-2-Clause
